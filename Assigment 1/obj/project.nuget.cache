@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JGtsw6Z7cqM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Asus\\source\\repos\\Assigment\\Assigment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.7\\microsoft.dotnet.ilcompiler.8.0.7.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.7\\microsoft.net.illink.tasks.8.0.7.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.7\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

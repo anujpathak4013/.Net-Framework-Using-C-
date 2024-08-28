@@ -1,0 +1,14 @@
+C:\Users\Asus\source\repos\Assigment\bin\Debug\net8.0\Assigment.exe
+C:\Users\Asus\source\repos\Assigment\bin\Debug\net8.0\Assigment.deps.json
+C:\Users\Asus\source\repos\Assigment\bin\Debug\net8.0\Assigment.runtimeconfig.json
+C:\Users\Asus\source\repos\Assigment\bin\Debug\net8.0\Assigment.dll
+C:\Users\Asus\source\repos\Assigment\bin\Debug\net8.0\Assigment.pdb
+C:\Users\Asus\source\repos\Assigment\obj\Debug\net8.0\Assigment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\Assigment\obj\Debug\net8.0\Assigment.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\Assigment\obj\Debug\net8.0\Assigment.AssemblyInfo.cs
+C:\Users\Asus\source\repos\Assigment\obj\Debug\net8.0\Assigment.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\Assigment\obj\Debug\net8.0\Assigment.dll
+C:\Users\Asus\source\repos\Assigment\obj\Debug\net8.0\refint\Assigment.dll
+C:\Users\Asus\source\repos\Assigment\obj\Debug\net8.0\Assigment.pdb
+C:\Users\Asus\source\repos\Assigment\obj\Debug\net8.0\Assigment.genruntimeconfig.cache
+C:\Users\Asus\source\repos\Assigment\obj\Debug\net8.0\ref\Assigment.dll
