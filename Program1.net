@@ -1,0 +1,85 @@
+﻿//namespace ConsoleApp5
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("Hello, World!");
+//        }
+//    }
+//}
+using System;  
+
+class Student
+{  
+    private string name;
+    private int rollNo;
+    private int[] marks = new int[5];
+    private int totalMarks;
+    private double percentage;
+    
+    private static string universityName;
+ 
+    public Student()
+    {
+        name = "Unknown";
+        rollNo = 0;
+        totalMarks = 0;
+        percentage = 0.0;
+    }
+  
+    public Student(string name, int rollNo)
+    {
+        this.name = name;
+        this.rollNo = rollNo;
+        totalMarks = 0;
+        percentage = 0.0;
+    }
+
+    static Student()
+    {
+        universityName = "GLA University";
+    }
+
+    public void ReadData()
+    {
+        Console.Write("Enter Student Name: ");
+        name = Console.ReadLine();
+        Console.Write("Enter Roll No: ");
+        rollNo = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Enter Marks for 5 subjects:");
+        for (int i = 0; i < marks.Length; i++)
+        {
+            Console.Write($"Subject {i + 1}: ");
+            marks[i] = Convert.ToInt32(Console.ReadLine());
+        }
+
+        CalculateResult();
+    }
+    public void CalculateResult()
+    {
+        totalMarks = 0;
+        for (int i = 0; i < marks.Length; i++)
+        {
+            totalMarks += marks[i];
+        }
+        percentage = (totalMarks / (marks.Length * 100.0)) * 100; // Assuming each subject is out of 100  
+    }
+ 
+    public void Display()
+    {
+        Console.WriteLine($"University Name: {universityName}");
+        Console.WriteLine($"Name: {name}");
+        Console.WriteLine($"Roll No: {rollNo}");
+        Console.WriteLine($"Total Marks: {totalMarks}");
+        Console.WriteLine($"Percentage: {percentage:F2}%");
+    }
+  
+    public static void Main(string[] args)
+    {
+        Student student = new Student();
+        student.ReadData();
+        student.Display();
+    }
+}
